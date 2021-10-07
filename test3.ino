@@ -35,6 +35,12 @@ void loop() {
     Serial.print("Received: ");
     Serial.println(readString);
   }
+
+//Stop car when connection lost or bluetooth disconnected
+   //if(digitalRead(BTState)==LOW)
+   //{readString == "n";}
+  
+  
   // увеличиваем значение
  // if(ButtonA == pressed) 
  // counter++; 
